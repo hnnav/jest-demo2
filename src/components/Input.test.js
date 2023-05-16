@@ -32,4 +32,4 @@ test("change on input causes change in h1", () => {
         fireEvent.change(input, {target: {value: inputWord}})
     
         expect(h1.innerHTML).toBe(inputWord)
-    })
+})
